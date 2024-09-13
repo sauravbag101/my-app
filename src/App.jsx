@@ -1,0 +1,33 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+
+//Pages
+
+import About from "./Pages/About";
+import Portfolio from "./Pages/Portfolio";
+import Contact from "./Pages/Contact";
+import Blog from "./Pages/Blog";
+import Resume from "./Pages/Resume";
+
+function App ()  {
+  return(
+    <div className="App">
+   <h1>Hello Every one</h1>
+
+  <Routes>
+   {/* <Route path="/" element={<About/>}/> */}
+   <Route path="/" element={<About/>}/>
+   
+   <Route path="/resume" element={<Resume/>}/>
+   <Route path="/portfolio" element={<Portfolio/>}/>
+   <Route path="/blog" element={<Blog/>}/>
+
+   <Route path="/contact" element={<Contact/>}/>
+
+  </Routes>
+  
+  </div>
+  )
+}
+
+export default App;
