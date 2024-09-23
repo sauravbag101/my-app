@@ -254,6 +254,52 @@ const Portfolio = () => {
             </ul>
           </div>
           <ul className="project-list">
+          <li
+              className="project-item  active"
+              data-filter-item=""
+              data-category="web development"
+            >
+              <a target="_blank" href="https://next-portfolio-tan-six.vercel.app/"  rel="noreferrer">
+                <figure className="project-img" >
+                  <div className="project-item-icon-box">
+                  <GoLinkExternal href='' />
+
+
+                  </div>
+                  <img
+                    src="https://assets.recogmedia.net/1/139/Entry_Uploads/290064-thumb.jpg"
+                     height="181px"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+                <h3 className="project-title">Portfolio-Motion Framer</h3>
+                <p className="project-category">React development</p>
+              </a>
+            </li>
+          <li
+              className="project-item  active"
+              data-filter-item=""
+              data-category="web development"
+            >
+              <a target="_blank" href="https://swiggy-clone-chi-lac.vercel.app/"  rel="noreferrer">
+                <figure className="project-img" >
+                  <div className="project-item-icon-box">
+                  <GoLinkExternal href='' />
+
+
+                  </div>
+                  <img
+                    src="https://miro.medium.com/v2/resize:fit:1400/1*qvhMfaZBh8cHOuOJP2myTA.png"
+                     height="161px"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+                <h3 className="project-title">Swiggy UI</h3>
+                <p className="project-category">React development</p>
+              </a>
+            </li>
             <li
               className="project-item  active"
               data-filter-item=""
