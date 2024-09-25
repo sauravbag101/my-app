@@ -8,24 +8,27 @@ import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import Blog from "./Pages/Blog";
 import Resume from "./Pages/Resume";
-// import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
+import Header from "./components/header";
 
 function App ()  {
   
   return(
+    
     <div className="App">
-   <h1>Hello Every one
+   {/* <h1>Hello Every one
 
-   {/* <header>
+   <header>
       <SignedOut>
         <SignInButton />
       </SignedOut>
       <SignedIn>
         <UserButton />
       </SignedIn>
-    </header> */}
-   </h1>
-
+    </header>
+   </h1> */}
+ 
+  
   <Routes>
    {/* <Route path="/" element={<About/>}/> */}
    <Route path="/" element={<About/>}/>
