@@ -24,9 +24,9 @@ const Header = () => {
 
       <span className='text-white text-center pt-5 block'>
         {user && (
-          <>
+          <div>
             Hi <span className='text-yellow-400 text-[30px]'>{user.fullName},</span> welcome to my portfolio website.
-          </>
+          </div>
         )}
       </span>
     </div>
