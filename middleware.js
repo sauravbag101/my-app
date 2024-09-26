@@ -1,4 +1,4 @@
-import { clerkMiddleware } from '@clerk/nextjs/edge'
+import { clerkMiddleware } from '@clerk/reactjs/edge'
 
 export default clerkMiddleware()
 
