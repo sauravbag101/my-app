@@ -1,12 +1,15 @@
-import { clerkMiddleware } from '@clerk/reactjs/edge'
+// middleware.js or middleware.ts
 
-export default clerkMiddleware()
-
-export const config = {
- matcher: [
- // Skip Next.js internals and all static files, unless found in search params
- '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
- // Always run for API routes
- '/(api|trpc)(.*)',
- ],
-}
+export default function middleware(req, res) {
+    // Basic middleware logic without Clerk
+    console.log("Middleware triggered");
+  
+    // You can add any custom headers or logic here without Clerk
+    return res.next(); // Continue to the next handler
+  }
+  
+  // Export configuration for the middleware
+  export const config = {
+    matcher: ['/((?!_next).*)'], // Adjust the matcher based on your routing needs
+  };
+  
