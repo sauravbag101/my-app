@@ -8,7 +8,7 @@ import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import Blog from "./Pages/Blog";
 import Resume from "./Pages/Resume";
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
+import { SignedIn, SignedOut, SignInButton, UserButton, RedirectToSignIn } from "@clerk/clerk-react";
 import Header from "./components/header";
 
 function App ()  {
@@ -31,7 +31,16 @@ function App ()  {
   
   <Routes>
    {/* <Route path="/" element={<About/>}/> */}
-   <Route path="/" element={<About/>}/>
+   <Route path="/" element={
+    <>
+    <SignedIn>
+       <About/>
+    </SignedIn>
+    <SignedOut>
+      <RedirectToSignIn />
+    </SignedOut>
+    </>
+   }/>
    
    <Route path="/resume" element={<Resume/>}/>
    <Route path="/portfolio" element={<Portfolio/>}/>
