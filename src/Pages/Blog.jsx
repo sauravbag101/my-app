@@ -219,6 +219,30 @@ const Blog = () => {
         </header>
         <section className="blog-posts pt-4">
           <ul className="blog-posts-list">
+          <li className="blog-post-item">
+              <a href="#">
+                <figure className="blog-banner-box">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0756/6167/2725/files/OpenGraph_Image-2.original.png?v=1719321579"
+                    alt="Design conferences in 2022"
+                    loading="lazy"
+                  />
+                </figure>
+                <div className="blog-content">
+                  <div className="blog-meta">
+                    <p className="blog-category">Design</p>
+                    <span className="dot" />
+                    <time dateTime="2022-02-23">Sep 27, 2024</time>
+                  </div>
+                  <h3 className="h3 blog-item-title">
+                  NASA Space Apps Challenge 2024
+                  </h3>
+                  <p className="blog-text">
+                  Our team has been shortlisted, and we are now in the final round of a hackathon in Noida on October 5th.
+                  </p>
+                </div>
+              </a>
+            </li>
             <li className="blog-post-item">
               <a href="#">
                 <figure className="blog-banner-box">

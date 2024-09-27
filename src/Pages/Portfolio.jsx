@@ -259,6 +259,75 @@ const Portfolio = () => {
               data-filter-item=""
               data-category="web development"
             >
+              <a target="_blank" href="https://sauravbag101.github.io/React_project/"  rel="noreferrer">
+                <figure className="project-img" >
+                  <div className="project-item-icon-box">
+                  <GoLinkExternal href='' />
+
+
+                  </div>
+                  <img
+                    src="https://fontgenerator.cc/img/Font_Generator_Featured_Image.png"
+                     height="181px"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+                <h3 className="project-title">Font Calculator</h3>
+                <p className="project-category">Font editor in React.Js</p>
+              </a>
+            </li>
+          <li
+              className="project-item  active"
+              data-filter-item=""
+              data-category="web development"
+            >
+              <a target="_blank" href="https://www.figma.com/proto/o6mnC2B1bTh9p0O0mMmjQW/Modern-Fitness-App?page-id=0%3A1&type=design&node-id=108-22&viewport=340%2C-810%2C0.55&t=UiDprhEnXnMz71yT-1&scaling=scale-down&starting-point-node-id=31%3A54"  rel="noreferrer">
+                <figure className="project-img" >
+                  <div className="project-item-icon-box">
+                  <GoLinkExternal href='' />
+
+
+                  </div>
+                  <img
+                    src="https://www.code-brew.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-02-at-7.07.01-PM.jpeg"
+                     height="181px"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+                <h3 className="project-title">Farming App</h3>
+                <p className="project-category">Mobile Prototype in figma</p>
+              </a>
+            </li>
+          <li
+              className="project-item  active"
+              data-filter-item=""
+              data-category="web development"
+            >
+              <a target="_blank" href="https://www.figma.com/proto/8pB4Q8isV4sgYwponMKFmh/KrishiTantrik?page-id=0%3A1&node-id=1-3&node-type=canvas&viewport=568%2C239%2C0.14&t=QAtY6Un3xCIauoqk-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3"  rel="noreferrer">
+                <figure className="project-img" >
+                  <div className="project-item-icon-box">
+                  <GoLinkExternal href='' />
+
+
+                  </div>
+                  <img
+                    src="https://www.prismetric.com/wp-content/uploads/2023/04/cost-to-develop-an-agriculture-app.jpg"
+                     height="181px"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+                <h3 className="project-title">Farming App</h3>
+                <p className="project-category">Mobile Prototype in figma</p>
+              </a>
+            </li>
+          <li
+              className="project-item  active"
+              data-filter-item=""
+              data-category="web development"
+            >
               <a target="_blank" href="https://next-portfolio-tan-six.vercel.app/"  rel="noreferrer">
                 <figure className="project-img" >
                   <div className="project-item-icon-box">
@@ -298,6 +367,29 @@ const Portfolio = () => {
                 </figure>
                 <h3 className="project-title">Swiggy UI</h3>
                 <p className="project-category">React development</p>
+              </a>
+            </li>
+            <li
+              className="project-item  active"
+              data-filter-item=""
+              data-category="web development"
+            >
+              <a target="_blank" href="https://next-1-chi.vercel.app/"  rel="noreferrer">
+                <figure className="project-img" >
+                  <div className="project-item-icon-box">
+                  <GoLinkExternal href='' />
+
+
+                  </div>
+                  <img
+                    src="https://ui.aceternity.com/banner.png"
+                     height="161px"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+                <h3 className="project-title">Aceternity UI</h3>
+                <p className="project-category">Next development</p>
               </a>
             </li>
             <li
@@ -447,20 +539,20 @@ const Portfolio = () => {
               data-filter-item=""
               data-category="applications"
             >
-              {/* <a href="#">
+              <a href="https://sauravbag101.github.io/Official_Portfolio/">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
-                    <ion-icon name="eye-outline" />
+                  <GoLinkExternal href='' />
                   </div>
                   <img
-                    src="./assets/images/project-8.jpg"
+                    src="https://i0.wp.com/curiositygym.com/wp-content/uploads/2022/05/portfolio1.jpg?fit=1920%2C1080&ssl=1"
                     alt="task manager"
                     loading="lazy"
                   />
                 </figure>
-                <h3 className="project-title">Task Manager</h3>
-                <p className="project-category">Applications</p>
-              </a> */}
+                <h3 className="project-title">Simple Portfolio</h3>
+                <p className="project-category">HTML,CSS,Javascript</p>
+              </a>
             </li>
             <li
               className="project-item  active"
