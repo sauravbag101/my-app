@@ -483,6 +483,11 @@ const About = () => {
           <p className='border-2 border-full border-slate-300 hover:border-slate-400 text-white px-2 py-1 border-t-[1px] mr-2 mb-3 rounded-xl'>Database</p>
           <p className='border-2 border-full border-slate-300 hover:border-slate-400 text-white px-2 py-1 border-t-[1px] mr-2 mb-3 rounded-xl'>Rest API</p>
           <p className='border-2 border-full border-slate-300 hover:border-slate-400 text-white px-2 py-1 border-t-[1px] mr-2 mb-3 rounded-xl'>React UI Library</p>
+          <p className='border-2 border-full border-slate-300 hover:border-slate-400 text-white px-2 py-1 border-t-[1px] mr-2 mb-3 rounded-xl'>Figma</p>
+          <p className='border-2 border-full border-slate-300 hover:border-slate-400 text-white px-2 py-1 border-t-[1px] mr-2 mb-3 rounded-xl'>Adobe Xd</p>
+          <p className='border-2 border-full border-slate-300 hover:border-slate-400 text-white px-2 py-1 border-t-[1px] mr-2 mb-3 rounded-xl'>Prototype</p>
+
+
 
           
           
