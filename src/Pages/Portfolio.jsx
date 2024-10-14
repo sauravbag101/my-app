@@ -259,6 +259,29 @@ const Portfolio = () => {
               data-filter-item=""
               data-category="web development"
             >
+              <a target="_blank" href="https://gemini-ochre-phi.vercel.app/"  rel="noreferrer">
+                <figure className="project-img" >
+                  <div className="project-item-icon-box">
+                  <GoLinkExternal href='' />
+
+
+                  </div>
+                  <img
+                    src="https://cdn.analyticsvidhya.com/wp-content/uploads/2023/07/11-Oct-2022-1200x600_SoHY84J.jpg"
+                     height="181px"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+                <h3 className="project-title">Chat AI</h3>
+                <p className="project-category">Chat AI in React.Js</p>
+              </a>
+            </li>
+          <li
+              className="project-item  active"
+              data-filter-item=""
+              data-category="web development"
+            >
               <a target="_blank" href="https://sauravbag101.github.io/React_project/"  rel="noreferrer">
                 <figure className="project-img" >
                   <div className="project-item-icon-box">
